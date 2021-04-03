@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nelly Mafi</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<!-- partial:index.partial.html -->
+<head>
+  <title>Raspberry Pi Tutorial</title>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  
+  
+  <div class="container">
+    <h1>Raspberry Pi Introduction Tutorial</h1>
+    <img class="back" src="Desktop/my web/vanelimf/images/back.jpg">
+    
+    
+    
+    
+    
+    <div class="intro">
+    <div class="rectangle"></div>
+      <p>Here, you will learn what a Raspberry Pi is and how it can help you with your projects. The main differences between the Raspberry Pi and the Arduino will be outlined. Learning Python is essential for you to process the input data from sets of sensors attached to the Raspberry Pi board. The basic interesting projects prepared for you will allow you to start creating with your Raspberry Pi. Have fun!
+      </p>
+      <ul class="listh">
+        <li>
+          <a href="#rect1">What is a Raspberry pi?</a>
+        </li>
+        <li>
+          <a href="#rect2">Raspberry Pi vs Arduino</a>
+        </li>
+        <li>
+          <a href="#rect3">Setting up the Raspberry Pi</a>
+        </li>
+        <li>
+          <a href="#rect4">Programming</a>
+        </li>
+        <li>
+          <a href="#rect5">Sense Hat</a>
+        </li>
+        <li>
+          <a href="#rect6">Interesting projects</a>
+        </li>
+      </ul>
+          
+      <img class="Pimg" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B098/production/_115180254_hands.jpg" alt="Raspberry Pi">
+ 
+  </div>
+      
+      
+      
+      
+      
+      
+      
+      
+    <div id="rect1">
+      <img class="RPimg" src="https://www.raspberrypi.org/wp-content/uploads/2011/10/Raspi-PGB001.png" alt="Raspberry Pi logo">
+      <div class="line1"></div>
+      <h2>What is a Raspberry Pi?</h2>
+      <div class="rectangle1"></div>
+      <p> The Raspberry Pi is a functional single-board computer (SBC) introduced by the Raspberry Pi Foundation based in Cambridge, United Kingdom. The Raspberry Pi integrates the CPU processor and GPU on a single Integrated Circuit (IC). Other functional components include RAM, GPIO Pins, USB and HDMI ports, Bluetooth, Wi-Fi, and other elements soldered on the board. OS operating system installed on a microSD card will be required to store the files. This Raspberry Pi computer connects to a monitor or TV through the HDMI port and uses a keyboard and a mouse to control the Linux operating system. GPIO Pins can connect the Raspberry Pi to various sets of sensors. Astro Pi unit in the International Space Station (ISS) uses The Sense HAT add-on board. Different families and models of Raspberry Pi computers have been released. The device was produced to help people of all ages to improve the coding skills and to create innovative projects.
+    </p>
+    <iframe class="bakevideo" src="https://www.youtube.com/embed/uXUjwk2-qx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>    
+
+      
+      
+      
+      
+    <div id="rect2">
+      <div class="rectangle2"></div>
+      <div class="line2"></div>
+        <h2>Raspberry Pi vs Arduino</h2>
+        <br>
+        <p>The Raspberry Pi is a single-board computer microprocessor, while the Arduino is a microcontroller board. The Raspberry Pi runs on a Linux OS. The digital GPIO Pins enable this device to process data efficiently. But the Arduino can control both inputs and outputs using the digital and analog GPIO Pins on its board. The Arduino as a microcontroller (which is a part of a computer), is only able to run only one program kept in its onboard storage. Hence, choosing which device to use is based on the project and hardware to be used. If a project requires video/graphic interfaces, or to process data files for computer-dependent applications, Raspberry Pi would be suitable. If a project requires controlling different circuit components (sensors, LCDs, motors), or battery-powered repetitive projects, Arduino would be suitable.</p>
+      
+      <img class="raspard" src="images/2.jpg" alt="Raspberry Pi">
+  
+      <iframe class="ardvideo" width="1128" height="473" src="https://www.youtube.com/embed/7vhvnaWUZjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+   </div>
+   
+   
+      
+      
+      
+ <div id="rect3">
+      <img class="setupimg" src="images/1.jpg" alt="Raspberry Pi logo">
+      <div class="line3"></div>
+      <h2>Setting up the Raspberry Pi</h2>
+      <div class="rectangle3"></div>
+      <p> You will need to have both the hardware and software ready to boot up your device. The required hardware includes a monitor connected to the Raspberry Pi computer by HDMI, USB keyboard and mouse, power supply, and a microSD card with the operating system software installed on. The power supply needs to be attached after the microSD insertion into the slot and the HDMI and USB connections (so that circuits are initialized completely). The Raspberry Pi OS (also known as the Raspbian) can be installed on the microSD in 4 steps using the Raspberry Pi Imager (if the kit does not already have a microSD storing the Raspberry Pi OS installer called NOOBS).<br><br> By connecting the Raspberry Pi’s USB power port to the power supply, a red light will appear on the board meaning that the device is booting up and the desktop will appear on the monitor. For the first time starting your system, you will need to follow the initial setup steps such as setting up your language, Time zone, Wi-Fi, and a password for your Raspberry Pi. Once the setup is complete, put some time to explore the operating system environment as you are only one step away from creating! Keep your Raspberry Pi board protected in a case.
+<br>
+By heading to the links below, you will find useful resources to help you with setting up your Raspberry Pi. 
+<br> <br>        
+<span>
+<a href="https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started" target="_blank">Getting started with Raspberry Pi</a>
+</span>
+<br>
+<span>
+<a href="https://projects.raspberrypi.org/en/" target="_blank">Get started
+</a>
+</span>
+<br><br>
+You are also able to control the desktop interface remotely using the Virtual Network Computing (VNC) sharing system. The command-line interface can also be accessed remotely using the Secure Shell (SSH) network protocol. Head to the links below for VNC and SSH installation protocols and familiarize yourself with the Linux commands.
+<br><br>      
+<span>
+<a href="https://www.raspberrypi.org/documentation/remote-access/vnc/" target="_blank">Set up VNC to access your pi remotely
+</a>
+</span>
+<br>
+<span>
+<a href="https://www.raspberrypi.org/documentation/remote-access/ssh/README.md" target="_blank">SSH command line remote access
+</a>
+</span>
+<br>
+<span>
+<a href="https://www.raspberrypi.org/documentation/linux/usage/commands.md" target="_blank">Command Line Reference
+</a>
+</span>
+ </p>
+  </div>
+      
+      
+      
+      
+      
+      
+      
+  <div id="rect4">
+      <div class="rectangle4"></div>
+      <div class="line4"></div>
+        <h2>Programming</h2>
+        <br>
+    <div class="p41">
+        <p>The Recommended programming language for the Raspberry Pi is Python. Python’s English-like syntax is easy to read, learn, and write. Thonny, a Python3 integrated development environment (IDE) is pre-installed in the Raspberry Pi OS (note that the Arduino IDE is written in a different language). Find and open Thonny under access menu (raspberry symbol) > programming > Thonny Python IDE. After opening Thonny, you will see two main sections: the script editor and the shell. By running the written script in the editor, the shell will execute the program.
+          <br><br></p>
+    </div>
+    <div class="p42">
+<p> Same as learning other programming languages, you will need to learn the syntax and semantics of Python. Have the links below as your Python language reference.
+<br><br>
+<span>
+<a href="https://www.raspberrypi.org/documentation/usage/python/" target="_blank">Python
+</a>
+</span>
+<br>
+<span>
+<a href="https://realpython.com/python-thonny/" target="_blank">Thonny: The Beginner-Friendly Python Editor
+</a>
+</span>
+<br>
+<span>
+<a href="https://www.python.org/doc/" target="_blank">Python
+</a>
+</span>
+</p>
+   </div>
+      
+      <img class="pythonimg" src="https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67" alt="Raspberry Pi">
+      <img class="programimg" src="https://cdn.sparkfun.com/assets/learn_tutorials/7/8/3/screen_09.png" alt="Raspberry Pi">
+      
+   </div>
+      
+      
+      
+      
+      
+   <div id="rect5">
+      <img class="senseimg" src="images/sense.jpg" alt="Sense Hat image">
+      <div class="line5"></div>
+      <h2>Sense HAT</h2>
+      <div class="rectangle5"></div>
+      <div class="p15">
+      <p>The Sense HAT is an extension board for Raspberry Pi attached to it via the GPIO pins. The Sense HAT will provide temperature, humidity, pressure, and orientation sensors (integrated circuits) to detect, quantify, and send the data to the processor. Sense HAT also provides a five-button joystick and a built-in 8x8 RGB LED matrix. Explore the links below for setting up your Sense HAT.
+        </p></div>
+      <div class="p25"><p>
+The LED matrix can display an image or scroll a text message. Three orientation sensors are available: gyroscope measuring the angular velocity, accelerometer measuring acceleration, and magnetometer measuring the magnetic field. With the Sense HAT, you can perform scientific experiments, and create software applications and games. Sense HAT needs to be installed in the Command-line interface. Installing any Python library (modules) including the Sense HAT library will also happen in the Command-line environment.
+<br>
+You can also explore Python with the Sense HAT using the
+<span> <a href="https://trinket.io/sense-hat" target="_blank"> Online Sense HAT emulator.
+</a> </span>
+<br>
+<span> <a href="https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat" target="_blank"> Getting started with the Sense HAT
+</a> </span>
+<br>
+<span> <a href="https://www.raspberrypi.org/documentation/hardware/sense-hat/README.md" target="_blank"> Sense HAT
+</a> </span>
+    </p>
+    </div>
+   </div>
+      
+      
+      
+      
+      
+  <div id="rect6">
+      <div class="rectangle6"></div>
+      <div class="line6"></div>
+        <h2>Interesting projects</h2>
+      <p><strong>Measuring the temperature and humidity of the atmosphere</strong><br>
+The purpose of this project is to measure the temperature and humidity of the surrounding environment using the Raspberry Pi and the Sense HAT. This project has also been executed in the International Space Station’s installed Raspberry Pi computer (Astro Pi). The temperature and humidity sensors on the Sense HAT will measure the physical quantities and send the data to Raspberry Pi. The Python code will enable you to select the option that you want to be displayed on the LED matrix display (temperature or humidity). 
+<span> <a href="https://www.electromaker.io/tutorial/blog/sensehat-part-1-temperature-and-humidity" target="_blank">SenseHAT: Part 1 Temperature and humidity
+</a> </span>
+<br><br>
+<strong>Classic snake game</strong><br>
+In this project, you will learn to code the classic snake pixel game that was the favorite mobile phone game in the late 19s. The game is displayed on the 8x8 LED matrix, and you can control the snake with the joystick. In this game, you will need to understand game designing and know the game script structure. 
+<span> <a href="https://pythonicpi.wordpress.com/2018/07/03/snake-game-using-the-sense-hat/" target="_blank">Snake Game using the Sense Hat
+</a> </span> 
+<br><br>
+        <strong>Installing Google Assistant on the Raspberry Pi</strong><br>
+This project shows how to create Google Assistant with the Raspberry Pi that is useful as a smart speaker, and for playing music. Artificial intelligence will answer all your questions. Google Assistant has the entirety of Google knowledge. Hence, enabling Google application programming interface (API) is required to communicate with Google Services. The Raspberry Pi will need to be connected to a microphone and a speaker. Also, the Raspberry Pi is required to authenticate the activity controls (such as voice and audio activities, and device information) to the API.
+<span> <a href="https://www.youtube.com/watch?v=tt-gOQSYbcQ" target="_blank">Google Assistant on Raspberry Pi
+</a> </span>          
+    </p>
+   </div>
+   </div>
+      
+   <footer>
+     <h3>Thank you for visiting our website</h3>
+   </footer>
+<!-- partial -->
+  
+</body>
+</html>
